@@ -43,11 +43,12 @@ values."
      ;;     ;; 在 Linux 下如果希望使用 fcitx 输入法，可以加入下面一行
      ;;     ;;han-enable-fcitx t
      ;;     han-org-line-spacing 0.2)
-     (auto-completion :disabled-for org)
+     auto-completion
      better-defaults
      themes-megapack
      emacs-lisp
      git
+     latex
      markdown
      org
      python
@@ -138,7 +139,7 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(gruvbox
+   dotspacemacs-themes '(professional
                          hemisu-light
                          spacemacs-dark
                          spacemacs-light)
